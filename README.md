@@ -1,6 +1,7 @@
 
 ## human-motion-prediction
 
+This is a repository for Columbia visual database class.
 
 ### Dependencies
 
@@ -80,23 +81,3 @@ or `--action all` (default) to train on all actions.
 
 The code will log the error in Euler angles for each action to [tensorboard](https://www.tensorflow.org/get_started/summaries_and_tensorboard). You can track the progress during training by typing `tensorboard --logdir experiments` in the terminal and checking the board under http://127.0.1.1:6006/ in your browser (occasionally, tensorboard might pick another url).
 
-
-### Citing
-
-If you use our code, please cite our work
-
-```
-@inproceedings{julieta2017motion,
-  title={On human motion prediction using recurrent neural networks},
-  author={Martinez, Julieta and Black, Michael J. and Romero, Javier},
-  booktitle={CVPR},
-  year={2017}
-}
-```
-
-### Acknowledgments
-
-The pre-processed human 3.6m dataset and some of our evaluation code (specially under `src/data_utils.py`) was ported/adapted from [SRNN](https://github.com/asheshjain399/RNNexp/tree/srnn/structural_rnn) by [@asheshjain399](https://github.com/asheshjain399).
-
-### Licence
-MIT
