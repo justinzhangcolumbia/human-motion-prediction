@@ -1,14 +1,6 @@
 
 ## human-motion-prediction
 
-This is the code for the paper
-
-Julieta Martinez, Michael J. Black, Javier Romero.
-_On human motion prediction using recurrent neural networks_. In CVPR 17.
-
-It can be found on arxiv as well: https://arxiv.org/pdf/1705.02445.pdf
-
-The code in this repository was written by [Julieta Martinez](https://github.com/una-dinosauria/) and [Javier Romero](https://github.com/libicocco/).
 
 ### Dependencies
 
